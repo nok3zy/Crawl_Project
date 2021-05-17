@@ -1,7 +1,5 @@
 ## Current
 
-실질적 확인 남음.
-home에서 img 소스 변경.
 
 
 
@@ -15,6 +13,4 @@ home에서 img 소스 변경.
 
 ## NEXT STEP
 
->- 워드클라우드 img, axios로 받기.
->- axios
->- 
+>- 실질적 확인 남음. home에서 img 소스 변경.
