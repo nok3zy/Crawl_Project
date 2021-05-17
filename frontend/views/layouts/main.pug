@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title Youtube-project
+        link(rel="stylesheet", href="/static/css/styles.css")
+    body
+        main
+            .left-column
+                a(href="/")
+                    h1.title 🔍
+            .right-column
+                .head-area
+                    p.text 2021년 3월 4주차 유튜브 분석
+                .main-area
+                    .main-left
+                        .img
+                            h1.sm_title WORD CLOUD
+                            img(src="http://localhost:5000/img?code=code")
+                        .raw_datas
+                            h1.sm_title 원본 데이터 일부분
+                            block raw_datas
+                    .main-right
+                        block content
+
+    footer          
+    script(src="/static/js/block.js")

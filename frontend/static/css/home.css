@@ -1,0 +1,136 @@
+html,body,main{
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*  main base setting */
+main{
+    display:flex;
+}
+
+.left-column{
+    /* background-color : #466CD9; */
+    background-color: #FF0000;
+    height:100%;
+    width: 100px;
+
+}
+
+.right-column{
+    background-color: #F2F3F7;
+    width:100%;
+    height:100%;
+    overflow-y: hidden;
+}
+/*  */
+
+.title {
+   width: 100%;
+   font-weight: 800; 
+   font-size:40px;
+   color:white;
+   text-align: center;
+   padding:10px 0;
+}
+
+/* right column */
+
+.head-area{
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-area .text{
+    font-weight: 600;
+    font-size:30px;
+}
+
+.main-area{
+    display: flex;
+    height: 100%;
+}
+
+.main-left{
+    width:50%;
+    height: 90%;
+    margin:10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-left .img{
+    margin-top:20px;
+}
+
+
+.sm_title{
+    font-size:28px;
+    font-weight: 600;
+    /* color:#FF0000; */
+    margin: 15px 0;
+}
+
+.main-left .raw_datas{
+    margin-top: 15px;
+    /* border :1px solid rgba(255,255,255,0.8); */
+    width: 550px;
+    height :540px;
+    display: flex;
+    flex-direction: column;   
+
+    overflow-y: hidden;
+}
+
+.raw_datas p{
+    border-top : 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px;
+    margin-left:5px;
+    font-size: 15px;
+}
+
+.main-right{
+    width:50%;
+    height:90%;
+    margin:10px 10px;
+    overflow-y: auto;
+}
+
+/* block */
+
+.blocks{
+    display: flex;
+    flex-flow:wrap;
+}
+
+.block{
+    width: 130px;
+    height: 100px;
+    margin:20px 25px;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background-color: black;
+}
+/* 130 100  */
+
+.block-img{ 
+    width:130px;
+    height:100px;
+    background-color: wheat;
+}

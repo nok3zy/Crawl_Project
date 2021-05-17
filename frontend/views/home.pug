@@ -1,0 +1,30 @@
+extends layouts/main
+include mixins/Block
+include mixins/raw_data
+
+//- block raw_datas
+//-         p this is example
+//-         p this is example
+//-         p this is example
+//-         p this is example
+//-         p this is example
+//-         p this is example
+//-         p this is example
+//-         p this is example
+        
+block raw_datas
+        each data in raw_datas
+            +raw_data({
+                data: data
+            })
+
+block content
+        .blocks
+            each item in items                
+                +Block({
+                    code : item
+                })
+           
+
+
+        
